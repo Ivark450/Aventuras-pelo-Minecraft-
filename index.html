@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <title>A Descoberta do Nether</title>
+</head>
+<body>
+    <main>
+<div class="passo ativo" id="passo-0">
+    <img src="Caminhos.png" alt="">
+    <p>Você é o Steve, um simples Player vagando pelo Overworld. Adentrando em uma floresta, percebe-se dois caminhos misteriosos</p>
+    <button class="btn-proximo" data-proximo="1">O caminho de pedrugulho à esquerda, seguindo a uma caverna</button>
+    <button class="btn-proximo" data-proximo="7">O caminho de tijolos de pedra à direita, seguindo a uma casa de madeira destruída</button>
+</div>
+<div class="passo" id="passo-1">
+    <img src="Luz no fundo.png" alt="">
+    <p>Adentrando na caverna, você percebe algo brilhante no fundo.</p>
+    <button class="btn-proximo" data-proximo="2">Andar em direção a luz</button>
+    <button class="btn-proximo" data-proximo="8">Vá embora, pode ser uma armadilha</button>
+</div>
+<div class="passo" id="passo-2">
+<img src="Sala branca.png" alt="">
+<p>Você vai em direção a luz e chegando no local, encontra um comodo feito inteiramente de uma pedra branca, porém, sua textura não lembra o bloco de ferro. Nesse mesmo comodo, existe uma piscina de lava e um portal feito de obsidiana incompleto. Você olha ao redor e acha um baú que possui um balde de água e um isqueiro em seu interior. Você pega esse balde e joga a água na lava, e em frente ao seus olhos, é criado um bloco de obsidiana.</p>
+<button class="btn-proximo" data-proximo="3">Colocar bloco de obsidiana no espaço vazio</button>
+<button class="btn-proximo" data-proximo="9">Pegar bloco e ir embora para estudar sua composição</button>
+</div>
+<div class="passo" id="passo-3">
+    
+    <p>Você coloca-o no espaço que falta e em um pico de adrenalina, se prepara para uma possível luta. Porém, absolutamente nada acontece. Você fica confuso e fica por alguns minutos pensando e lembra do isqueiro que ficou no baú.</p>
+    <button class="btn-proximo" data-proximo="4">Ir para o baú</button>
+    <button class="btn-proximo" data-proximo="8">Ir embora</button>
+</div>
+<div class="passo" id="passo-4">
+    
+<p>Após ir e pegar o isqueiro do baú, você coloca fogo em cima do bloco que ficava encaixado na primeira(de baixo) coluna do portal.  O portal consiste em duas colunas com 5 blocos cada e duas fileiras de 2 blocos que os conectavam(uma fileira em cima e outra em baixo) formando um retângulo.  Depois que o fogo entrou em contato com a obsidiana, um forte clarão em tom de roxo aparece no meio do portal e logo depois fica constante e preenche o espaço vazio dentro da estrutura.</p>
+<button class="btn-proximo" data-proximo="5">Entrar no portal</button>
+<button class="btn-proximo" data-proximo="10">Não entrar no portal</button>
+</div>
+<div class="passo" id="passo-5">
+    <img src="Nether.png" alt="">
+    <p>Ao entrar no portal, você é enviado a um local totalmente diferente do Overworld. Ele é escuro, quente e cheio de lava, sua tonalidade em geral era avermelhada(blocos, nevoeiro, minérios, liquído) e os seres que predominavam o lugar aparentavam ser neutros. Pois dava para perceber que estavam armados, contudo, não atacavam.</p>
+    <button class="btn-proximo" data-proximo="6">Próximo</button>
+</div>
+<div class="passo" id="passo-6">
+    <img src="Parábens.webp" alt="">
+    <p>PARÁBENS! VOCÊ ACHOU O NETHER.</p>
+    <button class="btn-proximo" data-proximo="0">Recomeçar</button>
+</div>
+<div class="passo" id="passo-7">
+    <img src="Baú.png" alt="">
+    <p>Você  chega na entrada da casa e vê um baú a sua frente.</p>
+    <button class="btn-proximo" data-proximo="0">Você decide ir embora e tentar outro caminho.</button>
+    <button class="btn-proximo" data-proximo="11">Você entra dentro da casa</button>
+</div>
+<div class="passo" id="passo-8">
+    <img src="Casa.png" alt="Volta para casa">
+    <p>Você volta para casa, e assim fica seguro.</p>
+    <button class="btn-proximo" data-proximo="0">Recomeçar</button>
+</div>
+<div class="passo" id="passo-9">
+    <img src="Casa.png" alt="Volta para casa">
+    <p>Você volta para casa e começa a estudar sua composição</p>
+    <button class="btn-proximo" data-proximo="0">Recomeçar</button>
+</div>
+<div class="passo" id="passo-10">
+    <img src="Casa.png" alt="Volta para casa">
+    <p>Você não entra no portal, isso é muito perigoso e arriscado, então decide voltar para casa</p>
+    <button class="btn-proximo" data-proximo="0">Recomeçar</button>
+</div>
+<div class="passo" id="passo-11">
+    <p>Quando você pisa no primeiro bloco após a entrada, um som de pistão é acionado e de repente, o bloco em baixo de você é quebrado e isso te leva a cair rapidamente por 18 blocos de altura. Fazendo-o, assim, uma redução grande em sua barra de vida.</p>
+    <button class="btn-proximo" data-proximo="12">Levantar-se</button>
+</div>
+<div class="passo" id="passo-12">
+    <img src="Morte.png" alt="">
+    <p>Antes mesmo de compreender o que aconteceu, flechas com veneno, cegueira, wither e dano instantâneo são atiradas por Dispensers que, infelizmente, acerta-o em cheio. Provocando a sua morte.</p>
+    <button class="btn-proximo" data-proximo="0">Recomeçar</button>
+</div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
